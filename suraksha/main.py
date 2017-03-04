@@ -4,6 +4,7 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
+from kivy.utils import platform
 from kivy.uix.screenmanager import Screen, ScreenManager
 
 if platform == 'android':
